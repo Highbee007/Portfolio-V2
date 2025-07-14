@@ -43,6 +43,25 @@ nav ul {
   gap: 2rem;
 }
 
+@media screen and (max-width: 1200px) {
+  nav{
+    flex-direction: column;
+    justify-content: space-evenly ;
+  }
+  
+  nav .resume a {
+    float: right;
+    margin-top: -3rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  nav ul {
+    display: none;
+  }  
+}
+
+
 nav a {
   text-decoration: none;
   color: #ccc;
